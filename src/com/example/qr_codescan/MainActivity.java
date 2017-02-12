@@ -114,7 +114,7 @@ public class MainActivity extends Activity {
 
 //				Toast.makeText(MainActivity.this, "PlayRunnable:begin", Toast.LENGTH_LONG).show();
 
-				Socket socket = new Socket("192.168.0.101", 1234);
+				Socket socket = new Socket("192.168.1.199", 1234);
 //				Socket socket = new Socket("192.168.56.84", 1234);
 				// 锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟较�
 				PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(socket.getOutputStream())),
